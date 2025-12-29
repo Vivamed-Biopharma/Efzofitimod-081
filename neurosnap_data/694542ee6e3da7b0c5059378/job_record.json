@@ -1,0 +1,14 @@
+{
+  "Status": "completed",
+  "Job ID": "694542ee6e3da7b0c5059378",
+  "User ID": "68cb242acec8a8b395412cef",
+  "Service": "Boltz-2 (AlphaFold3)",
+  "Runtime": "23m",
+  "Credits Used": 3.17347,
+  "Note": "ENTINOSTAT-CDH1-validation",
+  "Shared": false,
+  "Team ID": "000000000000000000000000",
+  "Pipeline ID": "000000000000000000000000",
+  "Pipeline Node ID": "0",
+  "Pipeline Item Index": 0
+}
