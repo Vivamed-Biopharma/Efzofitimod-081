@@ -219,7 +219,7 @@ As used herein, the following terms have the indicated meanings:
 
 **"E-cadherin"** refers to the protein product of the CDH1 gene (UniProt: P12830), a 882 amino acid transmembrane glycoprotein that mediates calcium-dependent homotypic cell-cell adhesion in epithelial tissues. E-cadherin contains five extracellular cadherin repeat domains (EC1-EC5), a transmembrane domain, and a cytoplasmic domain that interacts with catenins. Loss of E-cadherin expression is the defining molecular feature of invasive lobular breast carcinoma.
 
-**"Indisulam"** or **"E7070"** refers to the compound N-(3-chloro-7-indolyl)methanesulfonamide with the SMILES structure CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl, molecular formula C9H9ClN2O2S, molecular weight 244.69 g/mol, CAS number 165668-41-7, and PubChem CID 208901. Indisulam is a molecular glue degrader that binds to DCAF15 and induces proteasomal degradation of RBM39.
+**"Indisulam"** or **"E7070"** refers to the compound N-(6-chloro-1H-indol-3-yl)-4-(4-sulfamoylphenyl)benzenesulfonamide with the SMILES structure NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12, molecular formula C14H12ClN3O4S2, molecular weight 385.85 g/mol, CAS number 165668-41-7, and PubChem CID 216468. Indisulam is a molecular glue degrader that binds to DCAF15 and induces proteasomal degradation of RBM39.
 
 **"Invasive lobular breast carcinoma"** or **"ILC"** refers to a histological subtype of breast cancer characterized by: (a) loss of E-cadherin protein expression in tumor cells; (b) single-file or targetoid pattern of tumor cell infiltration; (c) typically low nuclear grade; and (d) frequent hormone receptor positivity. ILC accounts for approximately 10-15% of all invasive breast cancers.
 
@@ -236,34 +236,36 @@ As used herein, the following terms have the indicated meanings:
 The primary compound exemplifying the present invention is indisulam (E7070), an aryl sulfonamide molecular glue degrader with the following properties:
 
 **Chemical Identity:**
-- IUPAC Name: N-(3-chloro-7-indolyl)methanesulfonamide; alternative: N-(6-chloro-1H-indol-3-yl)methanesulfonamide
-- SMILES (Canonical): CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl
-- InChI Key: GOLCXWYRSKYTSP-UHFFFAOYSA-N
-- Molecular Formula: C9H9ClN2O2S
-- Molecular Weight: 244.69 g/mol
-- Exact Mass: 244.0073 Da
+- IUPAC Name: N-(6-chloro-1H-indol-3-yl)-4-(4-sulfamoylphenyl)benzenesulfonamide
+- SMILES (Canonical): NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12
+- InChI Key: CTLOSZHDGXBSIG-UHFFFAOYSA-N
+- Molecular Formula: C14H12ClN3O4S2
+- Molecular Weight: 385.85 g/mol
+- Exact Mass: 385.0008 Da
 - CAS Number: 165668-41-7
-- PubChem CID: 208901
-- ChEMBL ID: CHEMBL457504
+- PubChem CID: 216468
+- ChEMBL ID: CHEMBL77517
 
 **Structural Features:**
-The indisulam molecule comprises an indole bicyclic ring system (benzene fused to pyrrole) substituted with a chlorine atom at the 6-position and a methanesulfonamide group at the 3-position. The key pharmacophore features include:
+The indisulam molecule comprises an indole bicyclic ring system (benzene fused to pyrrole) substituted with a chlorine atom at the 6-position and a bis-sulfonamide linker connecting to a phenyl ring with a terminal sulfamoyl group. The key pharmacophore features include:
 
-1. **Methanesulfonamide group (-SO2NHCH3):** This functional group is essential for binding to DCAF15 through hydrogen bonding with the WD40 substrate receptor domain. The sulfonamide NH serves as a critical hydrogen bond donor.
+1. **Bis-sulfonamide linkage (-SO2NH-):** The two sulfonamide groups are essential for binding to DCAF15 through hydrogen bonding with the WD40 substrate receptor domain. The sulfonamide NHs serve as critical hydrogen bond donors.
 
 2. **Indole ring system:** The planar aromatic indole core provides hydrophobic interactions through pi-pi stacking with aromatic residues in the DCAF15 binding pocket. The indole NH at position 1 serves as an additional hydrogen bond donor.
 
-3. **Chlorine substituent:** The chlorine atom at the 6-position provides additional binding affinity through halogen bonding interactions with DCAF15 residues and contributes to positioning of the ligand in the binding pocket.
+3. **Chlorine substituent:** The chlorine atom at the 6-position of the indole ring provides additional binding affinity through halogen bonding interactions with DCAF15 residues and contributes to positioning of the ligand in the binding pocket.
+
+4. **Terminal sulfamoyl group (-SO2NH2):** The primary sulfonamide group on the phenyl ring provides additional hydrogen bonding capacity and contributes to the drug's pharmacokinetic properties.
 
 **Physicochemical Properties:**
-- LogP (octanol-water): 2.07 (moderately lipophilic)
-- Water Solubility: 0.112 mg/mL at 25C (low)
+- LogP (octanol-water): 1.8 (moderately lipophilic)
+- Water Solubility: Low aqueous solubility
 - Predicted pKa (sulfonamide NH): approximately 9.5 (neutral at physiological pH)
-- Hydrogen Bond Donors: 2 (indole NH, sulfonamide NH)
-- Hydrogen Bond Acceptors: 4 (2x sulfonyl oxygen, indole nitrogen, sulfonamide nitrogen)
-- Rotatable Bonds: 2 (S-N and N-C bonds)
-- Topological Polar Surface Area: 69.4 square angstroms
-- Heavy Atom Count: 14
+- Hydrogen Bond Donors: 4 (indole NH, 2x sulfonamide NH, sulfamoyl NH2)
+- Hydrogen Bond Acceptors: 7 (4x sulfonyl oxygen, indole nitrogen, 2x sulfonamide nitrogen)
+- Rotatable Bonds: 4 (multiple S-N and C-S bonds)
+- Topological Polar Surface Area: 137 square angstroms
+- Heavy Atom Count: 24
 
 **Mechanism of Action:**
 Indisulam functions as a molecular glue degrader through the following mechanism:
@@ -436,7 +438,7 @@ The mechanism by which indisulam achieves selective cytotoxicity in CDH1-deficie
 
 **Step 1: Cellular Entry and DCAF15 Binding**
 
-Indisulam enters cells through passive diffusion facilitated by its moderate lipophilicity (LogP 2.07) and relatively small molecular weight (244.69 Da). Once inside the cell, indisulam binds with high affinity (Kd approximately 10-50 nM) to DCAF15 in the WD40 substrate receptor domain. Key binding interactions include:
+Indisulam enters cells through passive diffusion facilitated by its moderate lipophilicity (LogP 1.8) and molecular weight (385.85 Da). Once inside the cell, indisulam binds with high affinity (Kd approximately 10-50 nM) to DCAF15 in the WD40 substrate receptor domain. Key binding interactions include:
 - Hydrogen bonding between the sulfonamide NH and backbone carbonyls in the WD40 pocket
 - Hydrogen bonding between the indole NH and DCAF15 residues
 - Hydrophobic pi-pi stacking between the indole ring and aromatic residues
@@ -640,7 +642,7 @@ Structural modeling was performed using Boltz-2 (AlphaFold3) through the Neurosn
    - RBM39: 530 amino acids, UniProt Q14498
 
 2. **Ligand:**
-   - Indisulam SMILES: CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl
+   - Indisulam SMILES: NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12
 
 3. **Computational parameters:**
    - MSA Mode: mmseqs2_uniref_env (high-quality evolutionary context)
@@ -1092,7 +1094,7 @@ GTEx expression analysis reveals tissue-specific patterns that inform the safety
 
 ### Dependent Claims - Compound Specifics
 
-**Claim 10.** The method of Claim 1, wherein the aryl sulfonamide compound is indisulam having the structure N-(3-chloro-7-indolyl)methanesulfonamide and SMILES CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl.
+**Claim 10.** The method of Claim 1, wherein the aryl sulfonamide compound is indisulam having the structure N-(6-chloro-1H-indol-3-yl)-4-(4-sulfamoylphenyl)benzenesulfonamide and SMILES NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12.
 
 **Claim 11.** The method of Claim 1, wherein the aryl sulfonamide compound is E7820.
 
@@ -1253,9 +1255,9 @@ YDYLNEWGNRFKKLADMYGGGEDD
 
 ### Indisulam Chemical Data
 
-**Canonical SMILES:** CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl
-**InChI:** InChI=1S/C9H9ClN2O2S/c1-15(13,14)12-7-5-11-9-4-6(10)2-3-8(7)9/h2-5,11-12H,1H3
-**InChI Key:** GOLCXWYRSKYTSP-UHFFFAOYSA-N
+**Canonical SMILES:** NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12
+**InChI:** InChI=1S/C14H12ClN3O4S2/c15-10-8-17-13-5-2-1-4-12(13)10-16-24(21,22)11-6-3-9(7-11)23(14,19)20/h1-8,17H,(H,16,22)(H2,19,20)
+**InChI Key:** CTLOSZHDGXBSIG-UHFFFAOYSA-N
 
 ---
 

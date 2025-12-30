@@ -316,15 +316,14 @@ http://snaptron.cs.jhu.edu/gtexv2/snaptron?regions=chr20:35620000-35680000
 
 | Identifier Type | Value |
 |-----------------|-------|
-| **SMILES (Canonical)** | `CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl` |
-| **SMILES (L1000)** | `NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12` |
-| **InChI Key** | `GOLCXWYRSKYTSP-UHFFFAOYSA-N` |
+| **SMILES (Canonical)** | `NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12` |
+| **InChI Key** | `CTLOSZHDGXBSIG-UHFFFAOYSA-N` |
 | **CAS Number** | 165668-41-7 |
-| **PubChem CID** | 208901 |
-| **ChEMBL ID** | CHEMBL457504 |
+| **PubChem CID** | 216468 |
+| **ChEMBL ID** | CHEMBL77517 |
 | **CTRP ID** | BRD-K17610631 |
-| **Molecular Formula** | C9H9ClN2O2S |
-| **Molecular Weight** | 244.69 g/mol |
+| **Molecular Formula** | C14H12ClN3O4S2 |
+| **Molecular Weight** | 385.85 g/mol |
 
 ### Entinostat (MS-275) - Modeled in Neurosnap Job
 

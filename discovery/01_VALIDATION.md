@@ -25,8 +25,8 @@
 
 **Affinity.json and scores.json files NOT downloaded locally** - these contain the actual binding affinity predictions (ΔG, Kd values). Only job metadata (job_record.json, job_data.json) are present in local storage.
 
-**SMILES for Indisulam (validated):** `CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl`
-**Alternative SMILES in L1000:** `NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12`
+**SMILES for Indisulam (validated):** `NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12`
+**PubChem CID:** 216468 | **ChEMBL ID:** CHEMBL77517 | **Molecular Formula:** C14H12ClN3O4S2 | **MW:** 385.85 g/mol
 
 ---
 

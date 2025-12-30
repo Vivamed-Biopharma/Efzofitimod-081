@@ -86,12 +86,12 @@ Patent-075/
 
 | Property | Value |
 |----------|-------|
-| SMILES | `CS(=O)(=O)NC1=CNC2=C1C=C(C=C2)Cl` |
-| Molecular Formula | C9H9ClN2O2S |
-| Molecular Weight | 244.69 g/mol |
+| SMILES | `NS(=O)(=O)c1ccc(cc1)S(=O)(=O)Nc1cccc2c(Cl)c[nH]c12` |
+| Molecular Formula | C14H12ClN3O4S2 |
+| Molecular Weight | 385.85 g/mol |
 | CAS Number | 165668-41-7 |
-| PubChem CID | 208901 |
-| ChEMBL ID | CHEMBL457504 |
+| PubChem CID | 216468 |
+| ChEMBL ID | CHEMBL77517 |
 | Mechanism | Molecular glue degrader |
 | Primary Target | DCAF15 (E3 ligase receptor) |
 | Neo-substrate | RBM39 (splicing factor) |
