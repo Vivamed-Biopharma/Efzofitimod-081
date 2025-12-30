@@ -58,12 +58,9 @@ Patent-075/
 │   ├── 00_DATA_DISCOVERY.md     # Initial data discovery report
 │   └── 01_VALIDATION.md         # Enabling data validation report
 └── neurosnap_data/
-    └── 694542ee6e3da7b0c5059378/  # Structural biology job data
-        ├── job_record.json
-        ├── job_data.json
-        ├── rank_1.cif - rank_5.cif
-        ├── msa_A.a3m, msa_B.a3m, msa_C.a3m
-        └── affinity.json, scores.json
+    └── 694542ee6e3da7b0c5059378/  # Structural biology job metadata (CDH1 structure)
+        ├── job_record.json       # Job status and metadata
+        └── job_data.json         # Job configuration (Note: CDH1-HDAC job, not indisulam-DCAF15)
 ```
 
 ## Data Sources
@@ -77,7 +74,7 @@ Patent-075/
 | **L1000** | Perturbation signatures | bio_kg_full PostgreSQL | Local |
 | **AACT** | Clinical trials | bio_kg_full PostgreSQL | Local |
 | **Snaptron** | Splice junctions | http://snaptron.cs.jhu.edu/gtexv2/ | API |
-| **Neurosnap** | Structural modeling | Local job archives | Local |
+| **Neurosnap** | Structural modeling | Local job metadata only (output files not downloaded) | Local |
 | **PRISM** | Drug repurposing | DepMap Portal | External |
 
 ## Key Compounds

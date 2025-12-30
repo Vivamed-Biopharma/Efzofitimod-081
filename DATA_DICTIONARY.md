@@ -31,20 +31,22 @@
 
 ### Output Files (Job 694542ee6e3da7b0c5059378)
 
-| File | Size | Description |
-|------|------|-------------|
-| `rank_1.cif` | 1.88 MB | Top-ranked structure prediction |
-| `rank_2.cif` | 1.72 MB | Second-ranked structure |
-| `rank_3.cif` | 1.72 MB | Third-ranked structure |
-| `rank_4.cif` | 1.72 MB | Fourth-ranked structure |
-| `rank_5.cif` | 1.72 MB | Fifth-ranked structure |
-| `affinity.json` | 342 bytes | Binding affinity predictions |
-| `scores.json` | 694.85 MB | Full confidence metrics |
-| `msa_A.a3m` | 10-18 MB | Multiple sequence alignment (Chain A) |
-| `msa_B.a3m` | 10-18 MB | Multiple sequence alignment (Chain B) |
-| `msa_C.a3m` | 10-18 MB | Multiple sequence alignment (Chain C) |
-| `job_record.json` | - | Job metadata |
-| `job_data.json` | - | Job configuration |
+**Note:** Only metadata files were downloaded locally. Structure output files remain on Neurosnap servers.
+
+| File | Size | Description | Status |
+|------|------|-------------|--------|
+| `job_record.json` | 392 bytes | Job metadata | Downloaded |
+| `job_data.json` | 4.1 KB | Job configuration | Downloaded |
+| `rank_1.cif` | 1.88 MB | Top-ranked structure prediction | NOT DOWNLOADED |
+| `rank_2.cif` | 1.72 MB | Second-ranked structure | NOT DOWNLOADED |
+| `rank_3.cif` | 1.72 MB | Third-ranked structure | NOT DOWNLOADED |
+| `rank_4.cif` | 1.72 MB | Fourth-ranked structure | NOT DOWNLOADED |
+| `rank_5.cif` | 1.72 MB | Fifth-ranked structure | NOT DOWNLOADED |
+| `affinity.json` | 342 bytes | Binding affinity predictions | NOT DOWNLOADED |
+| `scores.json` | 694.85 MB | Full confidence metrics | NOT DOWNLOADED |
+| `msa_A.a3m` | 10.48 MB | Multiple sequence alignment (Chain A) | NOT DOWNLOADED |
+| `msa_B.a3m` | 18.03 MB | Multiple sequence alignment (Chain B) | NOT DOWNLOADED |
+| `msa_C.a3m` | 16.13 MB | Multiple sequence alignment (Chain C) | NOT DOWNLOADED |
 
 ### Recommended Jobs to Submit
 
@@ -355,7 +357,7 @@ http://snaptron.cs.jhu.edu/gtexv2/snaptron?regions=chr20:35620000-35680000
 |-----------------|-------|
 | **UniProt ID** | Q66K64 |
 | **NCBI Gene ID** | 90379 |
-| **Ensembl Gene** | ENSG00000175309 |
+| **Ensembl Gene** | ENSG00000132017 |
 | **Chromosome** | 19p13.2 |
 | **Length** | 1454 amino acids |
 | **Function** | E3 ligase substrate receptor |
@@ -409,7 +411,7 @@ http://snaptron.cs.jhu.edu/gtexv2/snaptron?regions=chr20:35620000-35680000
 | `/DATA_DICTIONARY.md` | This file | ~12 KB | 2025-12-29 |
 | `/discovery/00_DATA_DISCOVERY.md` | Initial data discovery report | ~55 KB | 2025-12-28 |
 | `/discovery/01_VALIDATION.md` | Enabling data validation | ~12 KB | 2025-12-29 |
-| `/neurosnap_data/694542ee6e3da7b0c5059378/` | Structural biology job | ~700 MB | 2025-12 |
+| `/neurosnap_data/694542ee6e3da7b0c5059378/` | Structural biology job metadata (output files not downloaded) | ~4.5 KB | 2025-12 |
 
 ### External Data Files Referenced
 
